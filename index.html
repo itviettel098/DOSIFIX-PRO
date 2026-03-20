@@ -1,165 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <title>DOSIFIX PRO</title>
   
-  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAABqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByUlEQVR4nO2YwUrDMBiFv03RId68CIIXD+JNvPkOgnjxJp59D8GLeBHv4sWLF+9Ch7iIIK6IIA6EDon0Y6NtrK029S9Yvj8IbeInbZK29Y8AAAAAAAAAAAAAAMC8KMB9378C68A6sG657gDnwAlw7r0vU0iAtZ6zDdwA+yZ9HpgClvV1D7gF9o06B96A88Bv8z3v/TylBPi6X+An8W9S7wAnQO69r1NMgK8H6A5pD6i992WK9YByB/An5A7gS6gdQPeY7AD6U7ID6M/IDvD72AG6A+hPyQ6gP90d4H29A3QH0N8UOwAsLpA7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUp7sDXNHe8B0AnMAn4p8fDpgX994f794pLMBq7/0Wv8+990X6F4p63/8AAAAA/v0G0W6876U3uX4AAAAASUVORK5CYII=">
-  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAABqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByUlEQVR4nO2YwUrDMBiFv03RId68CIIXD+JNvPkOgnjxJp59D8GLeBHv4sWLF+9Ch7iIIK6IIA6EDon0Y6NtrK029S9Yvj8IbeInbZK29Y8AAAAAAAAAAAAAAMC8KMB9378C68A6sG657gDnwAlw7r0vU0iAtZ6zDdwA+yZ9HpgClvV1D7gF9o06B96A88Bv8z3v/TylBPi6X+An8W9S7wAnQO69r1NMgK8H6A5pD6i992WK9YByB/An5A7gS6gdQPeY7AD6U7ID6M/IDvD72AG6A+hPyQ6gP90d4H29A3QH0N8UOwAsLpA7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUO0C5A5Q7QLkDlDtAuQOUp7sDXNHe8B0AnMAn4p8fDpgX994f794pLMBq7/0Wv8+990X6F4p63/8AAAAA/v0G0W6876U3uX4AAAAASUVORK5CYII=">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Dosifix">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="https://i.ibb.co/Srt6mYv/311248617-475728517908853-4054123618464368558-n.jpg">
+  <link rel="apple-touch-icon" href="https://i.ibb.co/Srt6mYv/311248617-475728517908853-4054123618464368558-n.jpg">
+
+  <link rel="manifest" href='data:application/manifest+json,{"short_name":"Dosifix","name":"Dosifix Pro","icons":[{"src":"https://i.ibb.co/Srt6mYv/311248617-475728517908853-4054123618464368558-n.jpg","sizes":"192x192","type":"image/jpeg"}],"start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#00c853"}'>
+
   <style>
-    :root { --main-green: #00c853; --text-color: #2e7d32; }
-    body { background: #f5f5f5; padding: 10px; font-family: 'Segoe UI', sans-serif; overflow-x: hidden; }
-    .card { max-width: 450px; margin: 10px auto; border-radius: 12px; background: #ffffff; border: 1px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .header { padding: 12px; text-align: center; border-bottom: 1px solid #f0f0f0; font-weight: bold; color: var(--main-green); }
-    label { color: var(--text-color) !important; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 4px; display: block; }
-    .form-control { border: 1px solid #ced4da; border-radius: 6px; font-size: 1rem; height: 40px; }
-    .setting-box { background: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px; border: 1px solid #eee; }
-    .custom-control-label { color: var(--text-color) !important; font-weight: 600; cursor: pointer; font-size: 0.85rem; }
-    .btn-run { background: var(--main-green); color: white; font-weight: bold; border: none; padding: 12px; border-radius: 30px; font-size: 0.95rem; margin-top: 5px; width: 100%; box-shadow: 0 3px 8px rgba(0,200,83,0.3); }
-    .mark-box { background: #ffffff; border: 1px solid var(--main-green); padding: 5px; border-radius: 10px; text-align: center; margin-bottom: 5px; min-height: 105px; }
-    .val-time { font-size: 0.95rem; font-weight: bold; color: #333; }
-    .val-gap { font-size: 0.7rem; color: #666; font-style: italic; }
-    .val-pcs { font-size: 0.8rem; font-weight: bold; color: var(--main-green); }
-    .val-bin { font-size: 0.7rem; color: #1b5e20; font-weight: 800; background: #e8f5e9; border-radius: 4px; margin-top: 3px; padding: 2px; border: 1px solid #a5d6a7; }
-    .total-banner { border-top: 2px solid var(--main-green); color: var(--text-color); padding: 10px; text-align: center; font-size: 0.9rem; font-weight: bold; }
-    .accumulated-line { color: #d32f2f; font-size: 0.8rem; font-weight: 800; text-align: center; padding-bottom: 8px; text-transform: uppercase; }
-    .analysis { background: #f1f8e9; border-radius: 8px; padding: 8px; border: 1px solid #dcedc8; }
-    .info-line { display: flex; justify-content: space-between; padding: 2px 0; font-size: 0.75rem; color: #444; }
-    #toast { visibility: hidden; min-width: 250px; background-color: var(--text-color); color: #fff; text-align: center; border-radius: 0 0 15px 15px; padding: 12px; position: fixed; z-index: 2000; left: 50%; top: 0; transform: translateX(-50%); font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-    #toast.show { visibility: visible; animation: slideDown 0.5s ease-out forwards, slideLeftOut 0.5s ease-in 3s forwards; }
-    @keyframes slideDown { from { top: -80px; opacity: 0; } to { top: 0; opacity: 1; } }
-    @keyframes slideLeftOut { from { left: 50%; opacity: 1; } to { left: -100%; opacity: 0; } }
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #ffffff; }
+    iframe { border: none; width: 100%; height: 100%; seamless: seamless; }
+    
+    /* Màn hình chờ chuyên nghiệp có Logo */
+    .splash {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: #ffffff; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; z-index: 9999;
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+    }
+    .logo-img { width: 100px; height: 100px; margin-bottom: 20px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+    .spinner {
+      border: 3px solid #f3f3f3; border-top: 3px solid #00c853;
+      border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .status-text { margin-top: 15px; color: #1b5e20; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
   </style>
 </head>
-<body onload="initApp()">
-<div id="toast">Thông báo</div>
+<body>
 
-<audio id="snd_run" src="https://files.catbox.moe/mavkx1.mp3"></audio>
-<audio id="snd_success" src="https://files.catbox.moe/vl153f.mp3"></audio>
-<audio id="snd_in" src="https://files.catbox.moe/1430ru.mp3"></audio>
-<audio id="snd_dun" src="https://files.catbox.moe/f942v5.mp3"></audio>
-<audio id="snd_auto" src="https://files.catbox.moe/ro8lda.mp3"></audio>
-<audio id="snd_manual" src="https://files.catbox.moe/a6q6gz.mp3"></audio>
-
-<div class="card">
-  <div class="header">PHẦN MỀM TÍNH SHOP DOSIFIX</div>
-  <div class="card-body">
-    <div class="setting-box">
-      <div class="row text-center mb-2">
-        <div class="col-6 border-right">
-          <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="machineToggle" onchange="updateUI('machine')">
-            <label class="custom-control-label" for="machineToggle" id="machineLabel">MÁY: IN</label>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="modeToggle" onchange="updateUI('mode')">
-            <label class="custom-control-label" for="modeToggle" id="modeLabel">TỰ TÍNH</label>
-          </div>
-        </div>
-      </div>
-      <div class="row"><div class="col-12"><label id="binInfoLabel">Số dư pcs cũ:</label><input type="number" inputmode="numeric" id="oldPcs" class="form-control text-center" placeholder="Nhập số lẻ ca trước"></div></div>
-      <div id="manualInputBox" style="display:none;" class="mt-2 text-center border-top pt-2"><label>Nhập tổng sản lượng ca này:</label><input type="number" inputmode="numeric" id="totalInput" class="form-control text-center mx-auto w-75" placeholder="Ví dụ: 4820"></div>
-    </div>
-
-    <div class="row mb-2">
-      <div class="col-6 text-center"><label>Bắt đầu</label><input type="number" inputmode="numeric" id="start" class="form-control text-center"></div>
-      <div class="col-6 text-center"><label>Kết thúc</label><input type="number" inputmode="numeric" id="end" class="form-control text-center"></div>
-    </div>
-    <div class="row mb-3">
-      <div class="col-6 text-center"><label>Lỗi (Từ)</label><input type="number" inputmode="numeric" id="dtS" class="form-control text-center" placeholder="0000"></div>
-      <div class="col-6 text-center"><label>Lỗi (Đến)</label><input type="number" inputmode="numeric" id="dtE" class="form-control text-center" placeholder="0000"></div>
-    </div>
-
-    <div class="mb-3 text-center" style="background: #fff8e1; padding: 10px; border-radius: 8px; border: 1px solid #ffecb3;">
-      <div class="row">
-        <div class="col-6"><label style="color: #bf360c !important; font-size: 0.6rem;">Nhập Kg Rác:</label><input type="number" step="0.001" id="wasteKg" class="form-control text-center" placeholder="0.000" oninput="convertWaste('kg')"></div>
-        <div class="col-6"><label style="color: #bf360c !important; font-size: 0.6rem;">Nhập Pcs Rác:</label><input type="number" id="wastePcs" class="form-control text-center" placeholder="0" oninput="convertWaste('pcs')"></div>
-      </div>
-    </div>
-
-    <button class="btn-run" id="btnRun" onclick="run()">XUẤT DỮ LIỆU NGAY</button>
-
-    <div id="resBox" style="display:none" class="mt-3">
-      <div class="row no-gutters justify-content-center">
-        <div class="col-4 px-1" id="col1"><div class="mark-box"><small style="color:#888">Lần 1</small><div id="m1" class="val-time"></div><div id="g1" class="val-gap"></div><div id="p1" class="val-pcs"></div><div id="b1" class="val-bin"></div></div></div>
-        <div class="col-4 px-1" id="col2"><div class="mark-box"><small style="color:#888">Lần 2</small><div id="m2" class="val-time"></div><div id="g2" class="val-gap"></div><div id="p2" class="val-pcs"></div><div id="b2" class="val-bin"></div></div></div>
-        <div class="col-4 px-1" id="col3"><div class="mark-box"><small style="color:#888">Lần 3</small><div id="m3" class="val-time"></div><div id="g3" class="val-gap"></div><div id="p3" class="val-pcs"></div><div id="b3" class="val-bin"></div></div></div>
-      </div>
-      <div class="total-banner text-uppercase">TỔNG PCS: <span id="tp"></span></div>
-      <div class="accumulated-line">Tổng SHOPPACKET: <span id="ta"></span></div>
-      <div class="analysis">
-        <div class="info-line"><span>Thời gian Shop:</span><strong><span id="stD"></span>h (<span id="stH"></span>)</strong></div>
-        <div class="info-line"><span>Tổng Downtime:</span><strong><span id="dtD"></span>h (<span id="dtH"></span>)</strong></div>
-        <div class="info-line"><span>- Nghỉ ăn:</span><strong><span id="mH"></span> p</strong></div>
-        <div class="info-line"><span>- Lỗi máy:</span><strong><span id="iH"></span> p</strong></div>
-      </div>
-    </div>
+  <div class="splash" id="loader">
+    <img src="https://i.ibb.co/Srt6mYv/311248617-475728517908853-4054123618464368558-n.jpg" class="logo-img">
+    <div class="spinner"></div>
+    <div class="status-text">B.Braun Dosifix</div>
   </div>
-</div>
 
-<script>
-  function convertWaste(type) {
-    const kgInput = document.getElementById('wasteKg'), pcsInput = document.getElementById('wastePcs');
-    const RATIO = 185.3964 / 16;
-    if(type === 'kg') { let v = parseFloat(kgInput.value) || 0; pcsInput.value = Math.round((v * 1000) / RATIO); }
-    else { let v = parseInt(pcsInput.value) || 0; kgInput.value = ((v * RATIO) / 1000).toFixed(4); }
-  }
-  function play(id) { const s = document.getElementById(id); if(s) { s.currentTime = 0; s.play().catch(e => console.log(e)); } }
-  function showToast(msg) { const t = document.getElementById("toast"); t.innerText = msg; t.classList.remove("show"); void t.offsetWidth; t.classList.add("show"); }
-  function initApp() { updateUI(); }
-  function updateUI(type) {
-    const isD = document.getElementById('machineToggle').checked, isM = document.getElementById('modeToggle').checked;
-    document.getElementById('machineLabel').innerText = isD ? "MÁY: ĐÙN" : "MÁY: IN";
-    document.getElementById('modeLabel').innerText = isM ? "TỰ NHẬP" : "TỰ TÍNH";
-    document.getElementById('binInfoLabel').innerText = isD ? "Số dư pcs cũ (Đùn: 400/bin):" : "Số dư pcs cũ (In: 420/bin):";
-    document.getElementById('manualInputBox').style.display = isM ? "block" : "none";
-    if(type === 'mode') { isM ? (play('snd_manual'), showToast("⚠️ Chế độ tự nhập!")) : (play('snd_auto'), showToast("Chế độ tự động.")); }
-    if(type === 'machine') { isD ? (play('snd_dun'), showToast("Quy cách máy Đùn: 400 PCS")) : (play('snd_in'), showToast("Quy cách máy In: 420 PCS")); }
-  }
-  function run() {
-    const btn = document.getElementById('btnRun'), isM = document.getElementById('modeToggle').checked, total = document.getElementById('totalInput').value;
-    if(isM && !total) { alert("Chưa nhập tổng sản lượng!"); return; }
-    play('snd_run'); btn.disabled = true; btn.innerText = "ĐANG XỬ LÝ...";
-    const data = {
-      start: document.getElementById('start').value, end: document.getElementById('end').value,
-      dtStart: document.getElementById('dtS').value, dtEnd: document.getElementById('dtE').value,
-      oldPcs: document.getElementById('oldPcs').value, totalInput: total,
-      wastePcs: document.getElementById('wastePcs').value, 
-      machine: document.getElementById('machineToggle').checked ? "dun" : "in",
-      mode: isM ? "manual" : "auto"
-    };
-    google.script.run.withSuccessHandler(function(res) {
-      btn.disabled = false; btn.innerText = "XUẤT DỮ LIỆU NGAY";
-      if(res.status === "Thành công") {
-        play('snd_success');
-        for(let i=1; i<=3; i++) {
-          let col = document.getElementById('col'+i);
-          if(res.data['m'+i] === "N/A") { col.style.display = "none"; }
-          else {
-            col.style.display = "block";
-            document.getElementById('m'+i).innerText = res.data['m'+i];
-            document.getElementById('g'+i).innerText = "(" + res.data['g'+i] + ")";
-            document.getElementById('p'+i).innerText = res.data['p'+i] + " pcs";
-            document.getElementById('b'+i).innerText = res.data['b'+i];
-          }
-        }
-        document.getElementById('tp').innerText = res.data.totalPcs + " PCS";
-        document.getElementById('ta').innerText = res.data.totalAccumulated + " PCS";
-        document.getElementById('stD').innerText = res.data.stD; document.getElementById('stH').innerText = res.data.stH;
-        document.getElementById('dtD').innerText = res.data.dtD; document.getElementById('dtH').innerText = res.data.dtH;
-        document.getElementById('mH').innerText = res.data.mealH; document.getElementById('iH').innerText = res.data.incH;
-        document.getElementById('resBox').style.display = "block"; showToast("✓ Đã tính xong!");
-      }
-    }).processFormData(data);
-  }
-</script>
+  <iframe 
+    id="appFrame"
+    src="https://script.google.com/macros/s/AKfycbwFwvosyTdCcLp3X3flxKA32aaYl5VdUAKrBxL448CPNxfhNXXiaYLwAd2XTtikurTv0g/exec" 
+    onload="document.getElementById('loader').style.display='none';">
+  </iframe>
+
 </body>
 </html>
