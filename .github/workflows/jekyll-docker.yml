@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>DOSIFIX PRO</title>
+  <title>PHẦN MỀM TÍNH SHOPPACKET DOSIFIX</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
@@ -41,7 +41,7 @@
   </div>
 
   <iframe 
-    src="https://script.google.com/macros/s/AKfycbz_XXXXXXXX_THAY_LINK_CUA_ONG_VAO_DAY/exec" 
+    src="https://script.google.com/macros/s/AKfycbxPyVqmh69-6_17FMJeG_j8eJVLBuHY8-12bS-XSU8hS3Apn94NFQkjE1UL3WxjncNM/exec" 
     onload="document.getElementById('loader').style.display='none';">
   </iframe>
 
